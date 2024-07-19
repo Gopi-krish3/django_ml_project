@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score
 import warnings
 
 warnings.filterwarnings('ignore')
-df = pd.read_csv('../Notebooks/titanic.csv')
+df = pd.read_csv('titanic.csv')
 df['Age'].fillna(df['Age'].mean(), inplace=True)
 df['Embarked'].fillna(df['Embarked'].mode()[0], inplace=True)
 df.drop(columns='Cabin', inplace=True)
