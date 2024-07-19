@@ -1,1 +1,1 @@
-the repo is a django project. The project has been created to initialized for readymade project.
+The project is a combination of django and machine learning. It involves training of a random forest classifies model that has been trained on titanic dataset. The trained model involves predicting the probability of surviving of a person in titanic ship accident of 1912. The values may or may not be accurate. Mainly the accuracy rate of model is achieved to 83%.

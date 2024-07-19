@@ -20,7 +20,7 @@
             <form action="{% url 'predict_survival' %}" method="post" class="bg-light">
                 {% csrf_token %}
                 <div class="form-group">
-                    <label for="Pclass" class="font-weight-regular">Pclass:</label><br>
+                    <label for="Pclass" class="font-weight-regular">Passenger class:</label><br>
                     <!--<input type="number" id="Pclass" name="Pclass" class="form-control" required>-->
                     <select name="Pclass" id="Pclass" class="form-select">
                         <option selected>Select a value</option>
